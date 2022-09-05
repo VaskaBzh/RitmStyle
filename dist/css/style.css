@@ -1,0 +1,142 @@
+@font-face {
+  font-family: ElMessiri;
+  font-display: swap;
+  src: url("../fonts/ElMessiri-Bold.woff2") format("woff2"), url("../fonts/ElMessiri-Bold.woff1") format("woff1");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: ProximaNova;
+  font-display: swap;
+  src: url("../fonts/ProximaNova-Bold.woff2") format("woff2"), url("../fonts/ProximaNova-Bold.woff1") format("woff1");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: ProximaNova;
+  font-display: swap;
+  src: url("../fonts/ProximaNova-Light.woff2") format("woff2"), url("../fonts/ProximaNova-Light.woff1") format("woff1");
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: ProximaNova;
+  font-display: swap;
+  src: url("../fonts/ProximaNova-Semibold.woff2") format("woff2"), url("../fonts/ProximaNova-Semibold.woff1") format("woff1");
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: ProximaNovaT;
+  font-display: swap;
+  src: url("../fonts/ProximaNovaT-Thin.woff2") format("woff2"), url("../fonts/ProximaNovaT-Thin.woff1") format("woff1");
+  font-weight: 100;
+  font-style: normal;
+}
+*, *:before, *:after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+body {
+  font-family: "Proxi Nova", sans-serif;
+  font-size: 1rem;
+  background-color: #162831;
+}
+
+.wrapper {
+  max-width: 1256px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 30px 20px;
+}
+
+.header {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__nav {
+  display: flex;
+  max-width: 655px;
+  width: 100%;
+  justify-content: space-between;
+}
+.header__nav-link {
+  color: #fff;
+  text-decoration: none;
+  transition: 0.3s color;
+}
+.header__nav-link:hover {
+  color: #018ABE;
+}
+.header__button {
+  max-width: 155px;
+}
+
+.button {
+  width: 100%;
+  padding: 9px 0;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  outline: none;
+  border-radius: 3px;
+}
+.button--blue {
+  color: #fff;
+  background-color: #018ABE;
+}
+
+.promo {
+  padding: 20px 20px;
+  width: 100%;
+}
+.promo__wrapper {
+  min-height: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  background: url(../img/promo-img.png) center no-repeat;
+  background-size: cover;
+}
+.promo__wrapper__block {
+  max-width: 429px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 136px 0 50px;
+}
+.promo__wrapper__block-text {
+  font-family: "El Messiri";
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 140%;
+  color: #fff;
+  text-align: center;
+  margin: 0 auto;
+}
+.promo__wrapper__block-leep {
+  width: 28px;
+  height: 14px;
+}
+.promo__wrapper-title {
+  font-family: "El Messiri";
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 140%;
+  color: #fff;
+  max-width: 587px;
+  width: 100%;
+  text-align: center;
+}
